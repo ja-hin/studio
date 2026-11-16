@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact us | Sparsh K. Enterprises</title>
+  <meta name="description" content="Contact Sparsh K. Enterprises in Andheri West, Mumbai to book a dubbing, voice-over, recording or mixing session. Phone, email, hours, map and FAQ.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo-700.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="contact">
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Sparsh K. Enterprises home">
+        <img src="assets/images/logo-700.png" alt="Sparsh K. Enterprises" class="logo-img" width="700" height="356">
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-dropdown">
+            <a href="studio-1.html">Studios <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4"/></svg></a>
+            <ul class="dropdown">
+              <li><a href="studio-1.html">Studio 1</a></li>
+              <li><a href="studio-2.html">Studio 2</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="is-active">Contact us</a></li>
+        </ul>
+      </nav>
+      <a href="#book" class="btn btn-primary header-cta">Book now</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-banner">
+      <div class="page-banner-bg" style="background-image:url(assets/images/entrance.jpg)"></div>
+      <div class="container page-banner-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span>Contact us</span></nav>
+        <h1>Contact us</h1>
+        <p>Questions, quotes or bookings. Send a message and we will reply at the earliest.</p>
+      </div>
+    </section>
+
+    <!-- Form + details -->
+    <section class="contact" id="book">
+      <div class="container contact-grid">
+        <div class="contact-form-card">
+          <h2>Send a message</h2>
+          <!-- Replace FORM_ENDPOINT_NOT_SET with a Formspree or Web3Forms endpoint to make this form send email. -->
+          <form class="form" data-form action="https://FORM_ENDPOINT_NOT_SET" method="POST">
+            <div class="form-row">
+              <div class="field">
+                <label for="c-name">Full name</label>
+                <input id="c-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="c-email">Email address</label>
+                <input id="c-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="c-phone">Phone number</label>
+                <input id="c-phone" name="phone" type="tel" placeholder="+91" autocomplete="tel">
+              </div>
+              <div class="field">
+                <label for="c-studio">Studio</label>
+                <select id="c-studio" name="studio">
+                  <option>Any studio</option>
+                  <option>Studio 1 - Mixing and dubbing</option>
+                  <option>Studio 2 - Voice and music</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="c-subject">Subject</label>
+                <input id="c-subject" name="subject" type="text" placeholder="Your subject">
+              </div>
+              <div class="field">
+                <label for="c-date">Preferred date</label>
+                <input id="c-date" name="date" type="date">
+              </div>
+            </div>
+            <div class="field">
+              <label for="c-message">Message</label>
+              <textarea id="c-message" name="message" placeholder="Tell us about your project" required></textarea>
+            </div>
+            <div class="form-status" role="status" aria-live="polite"></div>
+            <div>
+              <button type="submit" class="btn btn-primary btn-lg" data-label="Send message">Send message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="info-list">
+          <div class="info-card">
+            <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+            <div>
+              <h3>Office line</h3>
+              <a href="tel:+910000000000">+91 00000 00000</a>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <div>
+              <h3>Email address</h3>
+              <a href="mailto:hello@example.com">hello@example.com</a>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <div>
+              <h3>Open hours</h3>
+              <p>Monday to Sunday<br>Open by appointment</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M16 12v1.5a2.5 2.5 0 0 0 5 0V12a9 9 0 1 0-3.5 7.1"/></svg></span>
+            <div>
+              <h3>Follow us</h3>
+              <ul class="social on-light" aria-label="Social media">
+                <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4v2H7v4h3v6h4v-6h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg></a></li>
+                <li><a href="https://www.instagram.com/sparshdubhouseofficial" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
+                <li><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a></li>
+                <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect x="3" y="9" width="4" height="12"/><circle cx="5" cy="5" r="2"/><path d="M10 9h4v2c.8-1.3 2-2 3.5-2 2.5 0 3.5 1.6 3.5 4.5V21h-4v-6.5c0-1.2-.5-2-1.6-2S14 13.3 14 14.5V21h-4z"/></svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Branch + map -->
+    <section>
+      <div class="container">
+        <div class="section-head center">
+          <h2>Our studio</h2>
+          <p>Find us in Andheri West, Mumbai.</p>
+        </div>
+        <div class="branch">
+          <div class="branch-card">
+            <div class="branch-photo" style="background-image:url(assets/images/sign-wooden.jpg)"></div>
+            <div class="body">
+              <h3>Andheri West studio</h3>
+              <address>
+                Studio address line 1<br>
+                Andheri West, Mumbai 400053<br>
+                Maharashtra, India
+              </address>
+            </div>
+          </div>
+          <div class="branch-card map-card">
+            <!-- Replace the q= value in both links with the exact studio address once confirmed -->
+            <iframe class="map" title="Map of the studio location" src="https://maps.google.com/maps?q=Andheri%20West%2C%20Mumbai&t=m&z=14&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <a class="map-link link-arrow" href="https://maps.google.com/maps?q=Andheri%20West%2C%20Mumbai" target="_blank" rel="noopener">Open in Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section style="background:var(--light)">
+      <div class="container">
+        <div class="section-head center">
+          <h2>General questions</h2>
+          <p>Quick answers to the things people ask before their first session.</p>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>What services does Sparsh K. Enterprises offer?</summary>
+            <p>Dubbing and voice-over recording, Foley and sound design, music recording, mixing in stereo and Atmos, mastering and audio editing. Our engineers can also assist with production on your project.</p>
+          </details>
+          <details>
+            <summary>Where is the studio located?</summary>
+            <p>In Andheri West, Mumbai. The full address and map are above.</p>
+          </details>
+          <details>
+            <summary>How do I book a session?</summary>
+            <p>Use the form on this page, or call or email us to schedule. We will confirm the room, time and engineer.</p>
+          </details>
+          <details>
+            <summary>What is the minimum booking time?</summary>
+            <p>Two hours.</p>
+          </details>
+          <details>
+            <summary>What equipment does the studio use?</summary>
+            <p>Large-diaphragm condenser microphones, Focusrite ISA One and Audient preamps, an Avid C24 console and industry-standard software including Pro Tools. See the studio pages for details.</p>
+          </details>
+          <details>
+            <summary>Do you offer audio engineering and production services?</summary>
+            <p>Yes. Our experienced engineers can record, edit, mix and master your project, and we can provide dubbing artists and voice-over talent.</p>
+          </details>
+          <details>
+            <summary>Do you offer package deals or discounts?</summary>
+            <p>Yes, custom package options are available on request. Tell us about the project and we will put together a quote.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="Sparsh K. Enterprises home">
+          <img src="assets/images/logo-700.png" alt="Sparsh K. Enterprises" class="logo-img" width="700" height="356">
+        </a>
+        <p>Dubbing, voice-over, Foley, sound design, music recording and mixing for film, TV and streaming localization.</p>
+        <ul class="social" aria-label="Social media">
+          <li><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4v2H7v4h3v6h4v-6h3l1-4h-4V8.5c0-.3.2-.5.5-.5z"/></svg></a></li>
+          <li><a href="https://www.instagram.com/sparshdubhouseofficial" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
+          <li><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/></svg></a></li>
+          <li><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect x="3" y="9" width="4" height="12"/><circle cx="5" cy="5" r="2"/><path d="M10 9h4v2c.8-1.3 2-2 3.5-2 2.5 0 3.5 1.6 3.5 4.5V21h-4v-6.5c0-1.2-.5-2-1.6-2S14 13.3 14 14.5V21h-4z"/></svg></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Studios</h4>
+        <ul>
+          <li><a href="studio-1.html">Studio 1 - Mixing and dubbing</a></li>
+          <li><a href="studio-2.html">Studio 2 - Voice and music</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Visit us</h4>
+        <address>
+          Studio address line 1<br>
+          Andheri West, Mumbai<br>
+          <a href="mailto:hello@example.com">hello@example.com</a><br>
+          <a href="tel:+910000000000">+91 00000 00000</a>
+        </address>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright © <span id="year">2026</span> Sparsh K. Enterprises. All rights reserved.</p>
+      <a href="#top" class="to-top">Scroll to top <svg viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/pages.js"></script>
+</body>
+</html>
